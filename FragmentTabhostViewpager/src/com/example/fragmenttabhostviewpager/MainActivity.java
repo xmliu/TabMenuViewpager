@@ -103,7 +103,7 @@ public class MainActivity extends FragmentActivity {
 						currentX, 0, 0);
 				translateAnimation.setFillAfter(true);
 				translateAnimation.setDuration(400);
-				mRedlineIV.setAnimation(translateAnimation);
+				mRedlineIV.startAnimation(translateAnimation);
 			}
 		});
 
